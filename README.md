@@ -40,7 +40,7 @@ A full-stack Java web application designed to manage hospital financial operatio
 
 1. **Clone this repository**
     ```bash
-    git clone https://github.com/chhavviii/Hospital-Financial-Management-System.git
+    git clone https://github.com/chhavviii/FinCorp-Management.git
     ```
 
 2. **Database Setup**
