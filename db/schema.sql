@@ -1,5 +1,4 @@
 create database BFSI;
-
 use  BFSI;
 
 CREATE TABLE users(
