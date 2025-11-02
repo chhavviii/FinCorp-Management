@@ -64,34 +64,28 @@ A full-stack Java web application designed to manage hospital financial operatio
 
 6. **Run the Application**
     - **Login Page:**  
-      [http://localhost:8585/Hospital-Financial-Management-System/login.jsp](http://localhost:8585/Hospital-Financial-Management-System/login.jsp)
+      [http://localhost:8585/FINCORP-MANAGEMENT-H/login.jsp](http://localhost:8585/FINCORP-MANAGMENT-H/login.jsp)
     - **Dashboard / Statements:**  
-      [http://localhost:8585/Hospital-Financial-Management-System/dashboard.jsp](http://localhost:8585/Hospital-Financial-Management-System/dashboard.jsp)
+      [http://localhost:8585/FINCORP-MANAGEMENT-H/dashboard.jsp?](http://localhost:8585/FINCORP-MANAGMENT-H/dashboard.jsp?)
 
 ---
 
 ## 🗂️ Included Files & Folders
 
-- **/src/controller/**
-    - `AccountServlet.java` — Handles account-related operations  
-    - `StatementServlet.java` — Generates mini and six-month statements  
-    - `LoginServlet.java` — Manages authentication and session handling  
+## Project Structure Overview
 
-- **/src/dao/**
-    - `AccountDAO.java` — Data access methods for account records  
-    - `StatementDAO.java` — Queries for transaction statements  
+- **src/main/java/com/STM/FincorpServlet.java** – Handles Fincorp-specific servlet actions.
+- **src/main/java/com/STM/LoginServlet.java** – Manages the user login process.
+- **src/main/java/com/STM/MiniStatementServlet.java** – Serves mini statement transaction data.
+- **src/main/java/com/STM/SixMonthStatementServlet.java** – Provides six-month transaction statements.
 
-- **/src/model/**
-    - `Account.java` — JavaBean model for account details  
-    - `Transaction.java` — JavaBean model for transactions  
-
-- **/src/util/**
-    - `DBUtil.java` — Database connection utility class  
-
-- **/WebContent/**
-    - `login.jsp`, `dashboard.jsp`, `miniStatement.jsp`, `sixMonthStatement.jsp` — JSP views  
-    - `META-INF/`, `WEB-INF/` — Application configuration folders  
-
+- **src/main/java/com/example/utils/Bank.java** – Data model for bank branch and transaction info.
+- **src/main/java/com/example/utils/DBConnection.java** – Utility for creating MySQL database connections.
+- **src/main/java/com/example/utils/UserDAOlogin.java** – Contains logic for validating user credentials.
+- **src/main/webapp/META-INF/** – Application metadata and deployment configuration folder.
+- **src/main/webapp/WEB-INF/TableStyle.css** – CSS for table and UI styling.
+- **src/main/webapp/WEB-INF/miniStatement2.jsp** – Shows a mini account statement.
+- **src/main/webapp/WEB-INF/sixMonthStatement.jsp** – Displays six-month statement results.
 - **/db/**
     - `schema.sql` — SQL script to create and initialize database tables  
 
@@ -110,16 +104,6 @@ A full-stack Java web application designed to manage hospital financial operatio
 - Add patient billing and invoice generation module.  
 - Integrate chart-based financial analytics.  
 - Add role-based access control for admins and accountants.  
-- Enable downloadable PDF statements.  
 
----
 
-## 👩‍💻 Author
-
-**Chhavi Tyagi**  
-Java Developer | Full Stack Web Enthusiast  
-📧 [Your Email Here]  
-🌐 [GitHub Profile](https://github.com/chhavviii)
-
----
 
