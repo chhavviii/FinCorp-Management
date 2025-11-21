@@ -45,7 +45,7 @@ A full-stack Java web application designed to manage hospital financial operatio
 
 2. **Database Setup**
     - Create a MySQL database (e.g., `BFSI`).
-    - Create necessary tables using your SQL schema file (add a `schema.sql` file in `/db` if not already included).
+    - Create necessary tables using your SQL schema file.
 
 3. **Configure Database Connection**
     - Update your MySQL credentials in `FincorpServlet.java`:
